@@ -5,7 +5,7 @@ import org.junit.Test;
 import static org.junit.Assert.assertEquals;
 
 public class CashbackHackServiceTest {
-    @Test
+    @org.junit.Test
     public void testFullАmount() {
         CashbackHackService service = new CashbackHackService();
         int amount = 1000;
